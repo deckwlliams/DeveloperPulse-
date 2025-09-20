@@ -1,87 +1,175 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>.: The Crypto App:. </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-  <body>
+
+<body>
     <!--    busca    -->
-        <div class="container">
-            <div class="row mt-2 mb-3">
-                <div class="col-12 text-end">
-    <i class="fa-solid fa-magnifying-glass fa-2x mx-2"></i>
-    <i class="fa-regular fa-bell fa-2x  mx-1"></i>
-                </div>
+    <div class="container">
+        <div class="row mt-2 mb-3">
+            <div class="col-12 text-end">
+                <i class="fa-solid fa-magnifying-glass fa-2x mx-2"></i>
+                <i class="fa-regular fa-bell fa-2x  mx-1"></i>
             </div>
         </div>
+    </div>
     <!--    saldo    -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="balance">
-                        <p>Total balance</p>
-                        <h3>$ 12.034,98</h3>
-                        <p class="mt-5" ><i class="fa-solid fa-arrow-trend-up"></i> $ 1.830 de lucro</p>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="balance">
+                         <img src="/assets/2.png" id="btc1">
+                    <p>seu saldo</p>
+               
+                    <h2>$ 12.034,98</h2>
+                    <p class="mt-5" id="line"><i class="fa-solid fa-arrow-trend-up"></i> $ 1.830 de lucro</p>
+               <img src="/assets/1.png" id="bct2">
                 </div>
             </div>
         </div>
+    </div>
     <!--    top moedas    -->
-        <div class="container mt-3">
-            <div class="row">
-                <div class="col-9">
-                    <h4>Top ativos</h4>
-                </div>
-                <div class="col-3 text-end">
-                    <p class="legenda">Veja tudo</p>
-                </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-8">
+                <h4>Top ativos</h4>
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="moeda">
-                         <i class="fa-brands fa-bitcoin fa-2x"></i><span class="titulo-moeda">Bitcoin</span>
-                         <h4 class="valor"> $ 45.898,27</h4>
-                         <p class="lucratividade">25,55%<i class="fa-solid fa-caret-up"></i></p>
-                         <img src="/assets/Chartline.png" width="100%">
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="moeda">
-                         <i class="fa-brands fa-ethereum fa-2x"></i><span class="titulo-moeda">Etherium</span>
-                      <h4 class="valor">$ 5.898,27</h4>
-                         <p class="lucratividade">2,55%<i class="fa-solid fa-caret-up"></i></p>
-                         <img src="/assets/Chartline.png" width="100%">
-                    
-                        </div>
-                
+            <div class="col-4 text-end">
+                <p class="legenda">Veja tudo</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="moeda">
+                    <i class="fa-brands fa-bitcoin fa-2x"></i><span class="titulo-moeda">Bitcoin</span>
+                    <h4 class="valor"> $ 45.898,27</h4>
+                    <p class="lucratividade">25,55%<i class="fa-solid fa-caret-up"></i></p>
+                    <img src="/assets/Chartline.png" width="100%">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="moeda">
+                    <i class="fa-brands fa-ethereum fa-2x"></i><span class="titulo-moeda">Etheriu</span>
+                    <h4 class="valor">$ 5.898,27</h4>
+                    <p class="lucratividade">2,55%<i class="fa-solid fa-caret-up"></i></p>
+                    <img src="/assets/Chartline.png" width="100%">
+
+                </div>
+
+            </div>
         </div>
+    </div>
     <!--    noticias    -->
-        <div class="container">
-             <div class="row">
-                <div class="col-9">
-                    <h4>Notícias</h4>
-                </div>
-                <div class="col-3 text-end">
-                    <p class="legenda">Veja tudo</p>
+    <div class="container mt-3 mb-5">
+        <div class="row">
+
+            <div class="col-8">
+                <h4>Notícias</h4>
+            </div>
+            <div class="col-4 text-end">
+                <p class="legenda">Veja tudo</p>
+            </div>
+        </div>
+
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="/assets/investment.png" alt="" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="text-noticia  ">Ações das tesla sobem 35% apos o anucio de Elon Musk sobre questõs finceira na
+                    Casa Branca</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="/assets/investment.png" alt="" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="text-noticia  ">Ações das tesla sobem 35% apos o anucio de Elon Musk sobre questõs finceira na
+                    Casa Branca</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="/assets/investment.png" alt="" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="text-noticia  ">Ações das tesla sobem 35% apos o anucio de Elon Musk sobre questõs finceira na
+                    Casa Branca</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="/assets/investment.png" alt="" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="text-noticia  ">Ações das tesla sobem 35% apos o anucio de Elon Musk sobre questõs finceira na
+                    Casa Branca</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="/assets/investment.png" alt="" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="text-noticia  ">Ações das tesla sobem 35% apos o anucio de Elon Musk sobre questõs finceira na
+                    Casa Branca</p>
+            </div>
+        </div>
+
+    </div>
+    <!--    rodapé com menu de navegação    -->
+    <div class="container-fluid" id="footer">
+        <div class="row pt-3">
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-house icon"></i>
+                    <p class="menu">Home</p>
                 </div>
             </div>
-           
-            <div class="row noticia">
-                <div class="col-3">
-                    <img src="/assets/investment.png" alt="" width="100%">
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-chart-simple icon"></i>
+                    <p class="menu">market</p>
                 </div>
-                <div class="col-9">
-                    <p class="text-noticia  ">Ações das tesla sobem 35% apos o anucio de Elon Musk sobre questõs finceira na Casa Branca</p>
+            </div>
+            <div class="col-4 text-center">
+                <div id="plus">
+                    +
+                </div>
+            </div>
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-chart-pie icon"></i>
+                    <p class="menu">Portifolio</p>
+                </div>
+            </div>
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-gear icon"></i>
+                    <p class="menu">Settings</p>
                 </div>
             </div>
         </div>
-    <!--    rodapé com menu de navegação    -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

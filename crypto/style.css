@@ -1,52 +1,111 @@
-body{
+body {
     background-color: #16171D;
+    font-family: "Poppins", sans-serif;
 }
-i{
+
+i {
     color: aliceblue;
 }
-#balance{
-        background-image: linear-gradient(to right, #B8D0F5, #5C90F4);
-        padding: 2em 1em 1em 2em;
-        border-radius: 10px;
+
+#balance {
+    background-image: linear-gradient(to right, #B8D0F5, #5C90F4);
+    padding: 2em 1em 1em 2em;
+    border-radius: 10px;
 }
-.fa-arrow-trend-up{
+
+.fa-arrow-trend-up {
     color: green;
 }
-h4{
+
+h4 {
     color: aliceblue;
 }
-.legenda{
+
+.legenda {
     color: #f5c249;
 }
-.moeda{
+
+.moeda {
     background-color: #282b35;
-    padding: 1em 1em 1em 1em ;
+    padding: 1em 1em 1em 1em;
     border-radius: 15px;
     margin-bottom: 1em
 }
-.titulo-moeda{
+
+.titulo-moeda {
     color: aliceblue;
-    font-size:x-large;
-    
+    font-size: x-large;
+
 }
-.valor{
+
+.valor {
     color: #a7aebf;
-font-weight: 200;
+    font-weight: 200;
 }
-.fa-bitcoin{
+
+.fa-bitcoin {
     color: orange;
 }
-.lucratividade{
-color: green;
-}
-.fa-caret-up{
+
+.lucratividade {
     color: green;
 }
-.noticia{
- background-color: #282b35;
-    padding: 5px 5px 5px 5px ;
-    border-radius: 15px;
+
+.fa-caret-up {
+    color: green;
 }
-.text-noticia{
+
+.noticia {
+    background-color: #282b35;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.text-noticia {
     color: aliceblue;
+}
+
+#footer {
+    background-color: #262932;
+    position: fixed;
+    bottom: 0;
+}
+
+.menu {
+    font-size: small;
+}
+
+.itemMenu:hover {
+    color: #f7931a;
+}
+
+.itemMenu {
+    color: #787a8d;
+
+}
+
+#plus {
+    background-color: #f7931a;
+    color: aliceblue;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    margin: auto;
+    border-radius: 200%;
+}
+
+#btc1{
+float: right;
+width: 20%;
+margin-right: 30%;
+}
+#bct2{
+margin-left: 30px;
+}
+#line{
+display: inline;
 }
