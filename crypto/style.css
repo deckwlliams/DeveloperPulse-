@@ -1,0 +1,52 @@
+body{
+    background-color: #16171D;
+}
+i{
+    color: aliceblue;
+}
+#balance{
+        background-image: linear-gradient(to right, #B8D0F5, #5C90F4);
+        padding: 2em 1em 1em 2em;
+        border-radius: 10px;
+}
+.fa-arrow-trend-up{
+    color: green;
+}
+h4{
+    color: aliceblue;
+}
+.legenda{
+    color: #f5c249;
+}
+.moeda{
+    background-color: #282b35;
+    padding: 1em 1em 1em 1em ;
+    border-radius: 15px;
+    margin-bottom: 1em
+}
+.titulo-moeda{
+    color: aliceblue;
+    font-size:x-large;
+    
+}
+.valor{
+    color: #a7aebf;
+font-weight: 200;
+}
+.fa-bitcoin{
+    color: orange;
+}
+.lucratividade{
+color: green;
+}
+.fa-caret-up{
+    color: green;
+}
+.noticia{
+ background-color: #282b35;
+    padding: 5px 5px 5px 5px ;
+    border-radius: 15px;
+}
+.text-noticia{
+    color: aliceblue;
+}
